@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4630BC9C27AC8E78007F508F /* PlayerObservers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630BC9B27AC8E78007F508F /* PlayerObservers.swift */; };
 		4630BCA127AC9A8B007F508F /* ControlCenterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630BCA027AC9A8B007F508F /* ControlCenterHelper.swift */; };
-		4630BCA527ACA71F007F508F /* ControlCenterImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4630BCA427ACA71F007F508F /* ControlCenterImage.jpg */; };
+		4641BDE527AD5E5F00E7594E /* ControlCenterImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4641BDE427AD5E5F00E7594E /* ControlCenterImage.jpg */; };
 		46ABC48927AB56E1003F7167 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ABC48827AB56E1003F7167 /* PlayerView.swift */; };
 		46D504A227AA05D8009CFF55 /* AudioPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D504A127AA05D8009CFF55 /* AudioPlayerApp.swift */; };
 		46D504A627AA05D8009CFF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D504A527AA05D8009CFF55 /* Assets.xcassets */; };
@@ -43,7 +43,7 @@
 		4630BC9B27AC8E78007F508F /* PlayerObservers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerObservers.swift; path = AudioPlayer/PlayerObservers.swift; sourceTree = SOURCE_ROOT; };
 		4630BC9F27AC9116007F508F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4630BCA027AC9A8B007F508F /* ControlCenterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlCenterHelper.swift; sourceTree = "<group>"; };
-		4630BCA427ACA71F007F508F /* ControlCenterImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ControlCenterImage.jpg; sourceTree = "<group>"; };
+		4641BDE427AD5E5F00E7594E /* ControlCenterImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ControlCenterImage.jpg; sourceTree = "<group>"; };
 		46ABC48827AB56E1003F7167 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerView.swift; path = AudioPlayer/PlayerView.swift; sourceTree = SOURCE_ROOT; };
 		46D5049E27AA05D8009CFF55 /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D504A127AA05D8009CFF55 /* AudioPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerApp.swift; sourceTree = "<group>"; };
@@ -84,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4641BDE327AD5E5F00E7594E /* SampleImages */ = {
+			isa = PBXGroup;
+			children = (
+				4641BDE427AD5E5F00E7594E /* ControlCenterImage.jpg */,
+			);
+			path = SampleImages;
+			sourceTree = "<group>";
+		};
 		46D5049527AA05D8009CFF55 = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +118,7 @@
 				46D504A527AA05D8009CFF55 /* Assets.xcassets */,
 				46D504A127AA05D8009CFF55 /* AudioPlayerApp.swift */,
 				4630BCA027AC9A8B007F508F /* ControlCenterHelper.swift */,
-				4630BCA427ACA71F007F508F /* ControlCenterImage.jpg */,
+				4641BDE327AD5E5F00E7594E /* SampleImages */,
 				46DA233427AC7F0D00CB2541 /* Extensions */,
 				4630BC9F27AC9116007F508F /* Info.plist */,
 				4630BC9B27AC8E78007F508F /* PlayerObservers.swift */,
@@ -269,7 +277,7 @@
 			files = (
 				46D504A927AA05D8009CFF55 /* Preview Assets.xcassets in Resources */,
 				46D504A627AA05D8009CFF55 /* Assets.xcassets in Resources */,
-				4630BCA527ACA71F007F508F /* ControlCenterImage.jpg in Resources */,
+				4641BDE527AD5E5F00E7594E /* ControlCenterImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
