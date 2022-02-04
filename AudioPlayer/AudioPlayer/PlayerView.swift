@@ -40,7 +40,7 @@ struct PlayerView: View {
             
         }.padding()
         
-        // Observe and response to various properties & events of the AVPlayer
+        // Observe and respond to various properties & events of the AVPlayer
         .onReceive(timeObserver.publisher) { time in
             self.currentTime = time
         }
