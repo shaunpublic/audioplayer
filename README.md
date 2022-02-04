@@ -16,6 +16,7 @@
 ## Setup
 
 To run this project, just open the Xcode project, build, and run!
+(If looking to build to a device, of course, you'll have to assign a development team.)
 
 ## Architecture
 
